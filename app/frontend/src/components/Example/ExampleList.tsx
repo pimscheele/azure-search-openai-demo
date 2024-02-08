@@ -3,9 +3,9 @@ import { Example } from "./Example";
 import styles from "./Example.module.css";
 
 const DEFAULT_EXAMPLES: string[] = [
-    "what is RAN?",
-    "What is going on in the gaming scene with regards to extremism?",
-    "What are the threats of deepfakes in the context of extremism?"
+    "What issues are our customers facing?",
+    "What are the key topics provided by the feedback?",
+    "Summarize the most important feedback in Dutch."
 ];
 
 const GPT4V_EXAMPLES: string[] = [
