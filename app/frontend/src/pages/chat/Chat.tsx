@@ -280,10 +280,9 @@ const Chat = () => {
                     {!lastQuestionRef.current ? (
                         <div className={styles.chatEmptyState}>
                             <img
+                                className={styles.AbnLogo}
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/ABN-AMRO_Logo_new_colors.svg/1280px-ABN-AMRO_Logo_new_colors.svg.png"
-                                height="100"
-                                bottom-padding="50px"
-                            ></img>
+                            />
                             <h1 className={styles.chatEmptyStateTitle}>Chat to FeedBecky!</h1>
                             <h2 className={styles.chatEmptyStateSubtitle}>Ask anything or try an example</h2>
                             <ExampleList onExampleClicked={onExampleClicked} useGPT4V={useGPT4V} />
